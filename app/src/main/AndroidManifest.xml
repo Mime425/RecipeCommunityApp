@@ -11,52 +11,74 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidProject">
+
+        <!-- MAIN ACTIVITY -->
         <activity
             android:name=".MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- LOGIN ACTIVITY -->
+        <activity
+            android:name=".LoginActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity
-            android:name=".activity_result"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
+
+        <!-- REGISTER ACTIVITY -->
         <activity
             android:name=".RegisterActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
+        <!-- ADD RECIPE -->
         <activity
             android:name=".AddRecipe"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
+        <!-- RECIPE LIST -->
         <activity
             android:name=".RecipeListActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
+        <!-- RECIPE DETAILS -->
         <activity
             android:name=".RecipeDetailsActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
+        <!-- PERSONAL RECIPES -->
         <activity
             android:name=".PersonalRecipesActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
+        <!-- FAVORITE RECIPES -->
         <activity
             android:name=".FavoriteRecipesActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
+        <!-- OTHER ACTIVITIES -->
+        <activity
+            android:name=".activity_result"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
         <activity
             android:name=".ResultListActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
     </application>
 
 </manifest>
