@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">AndroidProject</string>
+    <string name="app_name">Recipe Community App</string>
     <string name="all_recipes">All Recipes</string>
     <string name="total_recipes">Total Recipes: 0</string>
     <string name="return_button">Return</string>
+
 </resources>

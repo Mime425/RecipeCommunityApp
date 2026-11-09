@@ -1,10 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RecipeDetailsActivity">
+    android:orientation="vertical"
+    android:padding="20dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipe Details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipe Name:"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category:"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cooking Instructions:"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_vegan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vegan:"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_gluten_free"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gluten-Free:"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_return"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
