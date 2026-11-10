@@ -34,7 +34,7 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".AddRecipe"
+            android:name=".AddRecipeActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
@@ -51,10 +51,6 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".FavoriteRecipesActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
-            android:name=".ResultListActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
